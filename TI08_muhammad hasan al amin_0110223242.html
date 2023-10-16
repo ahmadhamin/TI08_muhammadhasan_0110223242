@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+    <title>Blackstone Bistro: Pizza-on-Demand</title>
+</head>
+<body>
+    <h1>Blackstone Bistro | Pizza-on-Demand</h1>
+    <p>Pizza Delivery, pizza pesan antar</p>
+    <form action="hasil.html" method="POST">
+        <fieldset>
+            <legend><b>Your Information</b></legend>
+            <label for="form-nama">Nama :</label>
+            <input type="text" name="nama" placeholder="Masukan Nama Lengkap">
+            <br>
+            <label for="form-Alamat">Alamat :</label>
+            <input type="text" name="Alamat" placeholder="Alamat Rumah">
+            <br>
+            <label for="form-Nomor">Nomor Telephone :</label>
+            <input type="text" name="Nomor-Telephone" placeholder="No.Telp">
+            <br>
+            <label for="form-Alamat">Alamat Email :</label>
+            <input type="text" name="Email" placeholder="Email">
+            <br>
+            <ul><li>Itruksi Pesanan :<br>
+                <textarea name="Intruksi" id="Intruksi" cols="50" rows="5"></textarea></li>
+            </ul>
+        </fieldset>        
+            <br>
+            <h2>Buat Pizza Impianmu</h2>
+            <br>
+        <fieldset>
+                <legend>Pesanan Pizza</legend>
+            <fieldset>
+            <legend>Ukuran</legend>
+            <ul>
+            <li><label><input type="radio" name="Ukuran" value="Kecil">
+            Kecil</label></li>
+            <li><label><input type="radio" name="Ukuran" value="Sedang">
+            Sedang</label></li>
+            <li><label><input type="radio" name="Ukuran" value="besar">
+            Besar</label></li>
+            <li><label><input type="radio" name="Ukuran" value="jumbo">
+            Jumbo</label></li>
+            </ul>
+            </fieldset>
+            <fieldset>
+            <legend>Toppings</legend>
+            <ul>
+            <li><label><input type="checkbox" name="toppings" value="saos tomat">
+            Saos Tomat</label></li>
+            <li><label><input type="checkbox" name="toppings" value="saos cabai">
+            Saos Cabai</label></li>
+            <li><label><input type="checkbox" name="toppings" value="saos keju">
+            Saos Keju</label></li>
+            <li><label><input type="checkbox" name="toppings" value="mayonnaise">
+            Mayonnaise</label></li>
+            <li><label><input type="checkbox" name="toppings" value="makaroni">
+            Makaroni</label></li>
+            <li><label><input type="checkbox" name="toppings" value="sosis">
+            Sosis</label></li>
+            <li><label><input type="checkbox" name="toppings" value="daging">
+            Daging</label></li>
+            </ul>
+        </fieldset>
+        <fieldset>
+            <legend>Jumlah</legend>
+                <label>Jumlah</label>
+                <select name="Jumlah">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>             
+                </select>
+            </fieldset>
+            <br>
+            <br>
+            <input type="submit" value="Pesan" name="tombol">
+            <input type="reset" value="batal" name="tombol">
+        </fieldset>
+    </form>
+</body>
+</html>
