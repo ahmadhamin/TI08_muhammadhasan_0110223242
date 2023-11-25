@@ -1,0 +1,43 @@
+body{
+    font-size: 15px;
+    text-align: center;
+}
+.container{
+    display: flex;
+}
+.container .nav{
+    width: 20vw;
+    height: 47vw;
+    background-color: pink;
+    line-height: 20vh;
+}
+.container .center{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100vh;
+}
+.container .center .header{
+    background-color: rgb(235, 167, 42);
+    height: 12vw;
+    width: 78vw;
+    line-height: 5vw;
+}
+.container .center .right{
+    display: flex;
+    height: 80vh;
+}
+.container .center .right .article{
+    width: 80%;
+    line-height: 80vh;
+}
+.container .center .right .aside{
+    text-align: center;
+    width: 20%;
+    background-color: aqua;
+}
+.container .center .footer{
+    background-color: rgb(235, 167, 42);
+    height: 10vw;
+    line-height: 5vw;
+}

@@ -1,0 +1,51 @@
+.header{
+    background-color: rgb(235, 167, 42);
+    height: 120px;
+    display: flex;
+    align-items: center;
+}
+header{
+    margin-left: 15px;
+    font-size: large;
+}
+.container{
+    display: flex;
+}
+.artikel{
+    height: 350px;
+    width: 900px;
+}
+p{
+    font-size: large;
+    margin-left: 15px;
+}
+.aside{
+    background-color: pink;
+    height: 350px;
+    width: 17vw;
+}
+aside{
+    font-size: large;
+    margin-top: 25px;
+    text-align: center;
+}
+.nav{
+    background-color: aqua;
+    height: 350px;
+    width: 17vw;
+}
+nav{
+    font-size: large;
+    margin-top: 25px;
+    text-align: center;
+}
+.footer{
+    background-color: rgb(235, 167, 42);
+    height: 120px;
+    display: flex;
+    align-items: center;   
+}
+footer{
+    font-size: large;
+    margin-left: 15px;
+}

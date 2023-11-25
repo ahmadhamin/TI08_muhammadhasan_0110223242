@@ -1,0 +1,48 @@
+body{
+    background-color: pink;
+    font-size: large;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+.header{
+    background-color: aqua;
+    padding-top: 3vw;
+    margin-top: 2vw;
+    height: 5vw;
+    text-align: center;
+    font: optional;
+}
+.container{
+    display: flex;
+    padding-top: 2vw;
+}
+.aside{
+    background-color: blue;
+    height: 25vw;
+    width: 15vw;
+    align-items: center;
+    display: flex;
+    padding-left: 7vw;
+}
+.artikel{
+    display: flex;
+    background-color: palevioletred;
+    height: 25vw;
+    width: 82vw;
+    margin-left: 3vw;
+    gap: 5rem;
+    text-align: center;
+}
+.footer{
+    background-color: aqua;
+    padding-top: 3vw;
+    margin-top: 2vw;
+    height: 5vw;
+    text-align: center;
+}
+.artikel .image{
+    display: flex;
+    height: 10vw;
+    width: 10vw;
+    margin-top: 180px;
+}
