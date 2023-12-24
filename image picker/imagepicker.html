@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Picker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background-color: #130a0a;
+            color: #f4f4f4;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        select {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            box-sizing: border-box;
+        }
+
+        #imageDisplay {
+            margin-top: 20px;
+        }
+
+        #imageInfo {
+            margin-top: 10px;
+            font-weight: bold;
+            color: #333;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Image Picker</h1>
+
+        <label for="imageSelector">Select Image</label>
+        <select id="imageSelector" onchange="displayImage()">
+            <option value="">Pick Your Image</option>
+            <option value="./image/gambar 1.jpg">Gambar 1</option>
+            <option value="./image/gambar 2.jpg">Gambar 2</option>
+            <option value="./image/gambar 3.jpg">Gambar 3</option>
+            <option value="./image/gambar 4.jpg">Gambar 4</option>
+            <option value="./image/gambar 5.jpg">Gambar 5</option>
+        </select>
+
+        <div id="imageDisplay"></div>
+        <div id="imageinfo"></div>
+    </div>
+
+    <script src="image.js" defer></script>
+</body>
+</html>

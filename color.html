@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function color () {
+            let color = ["cyan", "yellow", "gray", "red"]
+            let mix = Math.round(Math.random()*10);
+
+            document.getElementById("body").style = "background-color:"+color[mix];
+        }
+    </script>
+</head>
+<body id="body">
+    <input type="button" value="color" onclick="color()">
+</body>
+</html>
